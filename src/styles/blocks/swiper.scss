@@ -1,0 +1,48 @@
+#swiper {
+  display: none;
+
+  @media (min-width: 1400px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    height: 235px;
+    margin: 72px auto 0;
+    position: relative;
+  }
+}
+
+#swiper-wrapper {
+  max-width: 1224px;
+}
+
+#swiper-slide {
+  max-width: 392px;
+}
+
+#slide-card {
+  width: 100%;
+}
+
+#swiper-buttons {
+  width: 100%;
+  position: absolute;
+
+  .swiper-button-prev {
+    left: 0;
+    top: -95px;
+    color: #222222;
+    background-color: #fff7ff;
+    width: 67px;
+    height: 235px;
+  }
+
+  .swiper-button-next {
+    right: 0;
+    top: -95px;
+    color: #222222;
+    background-color: #fff7ff;
+    width: 67px;
+    height: 235px;
+  }
+}

@@ -1,0 +1,114 @@
+.header {
+  background-image: url("/src/images/img-header-bg.png");
+  background-size: cover;
+  background-position: 90% -10px;
+  background-repeat: no-repeat;
+
+  @media (min-width: 1025px) {
+    background-position: 78% -5px;
+  }
+
+  @media (min-width: 1225px) {
+    background-position: 60% -5px;
+  }
+
+  @media (min-width: 2100px) {
+    background-position: 50% -100px;
+  }
+
+  &__content {
+    padding-top: 290px;
+
+    @media (min-width: 1025px) {
+      padding-top: 134px;
+    }
+  }
+
+  &__title-first {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(180deg, #f8dc63 0%, #ffa656 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #2f1977;
+
+    @media (min-width: 1025px) {
+      font-size: 80px;
+      line-height: 88px;
+    }
+  }
+
+  &__title-second {
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    color: #fefefd;
+    -webkit-text-stroke: 3px #2f1977;
+
+    @media (min-width: 1025px) {
+      font-size: 96px;
+      line-height: 88px;
+    }
+  }
+
+  &__title-third {
+    font-family: " Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(180deg, #ed9460 0%, #eb442f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #2f1977;
+
+    @media (min-width: 1025px) {
+      font-size: 80px;
+      line-height: 88px;
+    }
+  }
+
+  &__text {
+    margin-top: 16px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+
+    @media (min-width: 1025px) {
+      font-size: 26px;
+      line-height: 38px;
+    }
+  }
+
+  &__google-play {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 1025px) {
+      margin-top: 56px;
+    }
+
+    & img {
+      width: 343px;
+
+      @media (min-width: 1025px) {
+        width: 288px;
+      }
+    }
+  }
+
+  &__img-cloud {
+    width: 100%;
+  }
+}

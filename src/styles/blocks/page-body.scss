@@ -1,0 +1,17 @@
+.page-body {
+  background: #fff7ff;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+
+  @media (min-width: 1025px) {
+    padding-inline: 16px;
+  }
+
+  @media (min-width: 1225px) {
+    padding-inline: 0;
+  }
+}
